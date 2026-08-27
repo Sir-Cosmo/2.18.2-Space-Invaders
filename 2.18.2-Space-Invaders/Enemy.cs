@@ -8,7 +8,6 @@ namespace _2._18._2_Space_Invaders
     {
         public int[] Location = new int[2];
         public bool IsDead { get; set; }
-
         public bool ShotHit { get; set; }
         public Enemy(int[] location)
         {

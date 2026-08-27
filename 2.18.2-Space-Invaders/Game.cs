@@ -50,8 +50,6 @@
             }
         }
 
-
-
         static public Enemy[] GenerateEnemys()
         {
             Draw.ActivateField();
@@ -130,7 +128,6 @@
             }
             return false;
         }
-
 
         private static bool CheckWinOrLose(CancellationTokenSource cts, Enemy[] enemies)
         {
